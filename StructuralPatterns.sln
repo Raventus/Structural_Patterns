@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "StructuralPatterns\Adapter.csproj", "{204B4D91-C013-4585-9379-531FDEE941A7}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{BAE36A25-3D39-4515-A3C3-824938F94073}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{59A371B5-0614-4393-9B8F-695B05C1E0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{D39C26B2-A7B8-42AE-A03C-AFAB16695D3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{59A371B5-0614-4393-9B8F-695B05C1E0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A371B5-0614-4393-9B8F-695B05C1E0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A371B5-0614-4393-9B8F-695B05C1E0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39C26B2-A7B8-42AE-A03C-AFAB16695D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39C26B2-A7B8-42AE-A03C-AFAB16695D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39C26B2-A7B8-42AE-A03C-AFAB16695D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39C26B2-A7B8-42AE-A03C-AFAB16695D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A30145F-06DE-4DD8-92C0-19567789FF89}
 	EndGlobalSection
 EndGlobal
